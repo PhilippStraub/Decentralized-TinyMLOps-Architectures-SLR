@@ -1,0 +1,1 @@
+# Decentralized-TinyMLOps-Architectures-SLR
