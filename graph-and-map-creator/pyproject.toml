@@ -1,0 +1,26 @@
+[project]
+name = "graph-and-map-creator"
+version = "0.1.0"
+description = "This project automatically creates the graphs for the SLR."
+authors = [
+    {name = "Philipp Straub"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas (>=2.3.3,<3.0.0)",
+    "matplotlib (>=3.10.7,<4.0.0)",
+    "jupyterlab (>=4.4.9,<5.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)",
+    "plotly (>=6.3.1,<7.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "scipy (>=1.16.2,<2.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "graph_and_map_creator", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
