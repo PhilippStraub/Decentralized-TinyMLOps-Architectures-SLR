@@ -10,6 +10,7 @@ The aim of this repository is to complement our systematic literature review stu
 ```
 .
 ├── paper set and analysis.xlsx               #Structured overview of data supporting findings
+├── SLR review protocol.pdf                   #SLR review protocol documenting details and decisions of the review
 ├── README.md                                 #You are here!
 └── graph-and-map-creator/                    #Tool for creation of maps and graphs 
 ```
